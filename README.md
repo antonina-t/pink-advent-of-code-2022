@@ -17,11 +17,11 @@ Welcome to the Pink workshop on Dec, 4th in Malmö! We will be solving problems 
    * `Reader` is a helper file to read from input files
    * `Runner` is the main program running solutions for different days
 
-#### Day 0 - Practice task
+#### _Day 0 - Practice task_
 
 _Imagine you have a list of numbers and you need to find their sum. And then their product. Go!_
 
-6. Try to run the code that solves _Day 0_ by running the `Runner` file
+5. Try to run the code that solves _Day 0_ by running the `Runner` file
 
 Enjoy and see you soon :)
 /Antonina
