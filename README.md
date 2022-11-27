@@ -11,7 +11,7 @@ Welcome to the Pink workshop on Dec, 4th in Malmö! We will be solving problems 
 
 3. Open the project in IntelliJ. You might have to download a JDK. I am using openjdk-19
 
-4. Look at the files in out project: 
+4. Look at the files in our project: 
    * The `input` folder contains the input files (only our test input for Day 0 for now)
    * `Day0` has the solution to _Day 0 - Practice task_ below
    * `Reader` is a helper file to read from input files
