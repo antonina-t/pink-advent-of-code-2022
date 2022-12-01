@@ -3,6 +3,8 @@ Let's save Christmas!
 
 Welcome to the Pink workshop on Dec, 4th in Malmö! We will be solving problems from [https://adventofcode.com/](https://adventofcode.com/) in Java!
 
+Please do the setup before the workshop.
+
 ### Setup
 
 1. The editor I will be using is IntelliJ IDEA Community Edition. Make sure you have it: [https://www.jetbrains.com/idea/download](https://www.jetbrains.com/idea/download)
