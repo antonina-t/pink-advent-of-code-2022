@@ -4,7 +4,7 @@ import java.nio.file.Path;
 import java.util.List;
 
 public class Reader {
-    public static List<String> lines(int day) {
+    public static List<String> lines(String day) {
         try {
             return Files.readAllLines(Path.of("input/" + day + ".txt"));
         } catch (IOException e) {
