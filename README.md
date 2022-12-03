@@ -13,7 +13,7 @@ Please do the setup before the workshop.
 
 3. Download the code, e.g. by running `git clone https://github.com/antonina-t/pink-advent-of-code-2022.git` in the terminal
 
-4. Open the project in IntelliJ. You might have to download a JDK. I am using openjdk-19
+4. Open the project in IntelliJ. It might tell you to set up an SDK, do it. I am using openjdk-19
 
 5. Look at the files in our project: 
    * The `input` folder contains the input files (only our test input for Day 0 for now)
