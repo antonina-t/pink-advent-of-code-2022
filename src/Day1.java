@@ -18,5 +18,9 @@ public class Day1 {
 
         var result = calories.stream().max(Integer::compareTo).orElseThrow();
         System.out.println(result);
+
+        calories.sort((a, b) -> b - a);
+
+        System.out.println(calories.get(0) + calories.get(1) + calories.get(2));
     }
 }
