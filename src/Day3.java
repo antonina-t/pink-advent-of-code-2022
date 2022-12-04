@@ -9,7 +9,8 @@ public class Day3 {
         var result = input.stream()
                 .map(Day3::getCommonElement)
                 .map(Day3::getPrio)
-                .reduce(Integer::sum);
+                .reduce(Integer::sum)
+                .orElseThrow();
 
         System.out.println(result);
     }
@@ -35,6 +36,9 @@ public class Day3 {
     }
 
     static int getPrio(char c) {
-        return 0;
+        if (Character.isLowerCase(c))
+            return c - 'a' + 1;
+        else
+            return c - 'A' + 27;
     }
 }
