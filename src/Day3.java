@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Day3 {
-    public static void solve() {
+    public static void part1() {
         var input = Reader.lines("3");
 
         var result = input.stream()
@@ -13,6 +13,28 @@ public class Day3 {
                 .orElseThrow();
 
         System.out.println(result);
+    }
+
+    public static void part2() {
+        var input = Reader.lines("3");
+
+        var sum = 0;
+        for (int i = 0; i < input.size(); i += 3) {
+            var first = input.get(i);
+            var second = input.get(i + 1);
+            var third = input.get(i + 2);
+
+            var firstSet = toSet(first);
+            var secondSet = toSet(second);
+            var thirdSet = toSet(third);
+
+            firstSet.retainAll(secondSet);
+            firstSet.retainAll(thirdSet);
+
+            sum += getPrio(firstSet.iterator().next());
+        }
+
+        System.out.println(sum);
     }
 
     static char getCommonElement(String input) {
